@@ -1,0 +1,40 @@
+<script>
+        
+// Check section color
+const sections = $("section");
+const sectionsLen = sections.length;
+
+scroll.on("scroll", (instance) => {
+  console.log(instance.scroll.y);
+  if (instance.scroll.y > 500) {
+    console.log("sectionsLen");
+  } else {
+    // what you want
+  }
+});
+
+$(document).ready(function () {
+  $(scroll).scroll(function () {
+    console.log("sectionsLen");
+  });
+});
+
+// $(window).on("scroll", function(){
+//   alert("d")
+//   for(let i=0; i< sectionsLen; i++){
+//     console.log($(sections[i]).css("backgroundColor"))
+//    if($(sections[i]).css("backgroundColor") == 'rgba(0, 0, 0, 0)'){
+//      $('.nav_toggle').css('color',"red")
+//    }
+//    else{
+//      $('.nav_toggle').css('color',"white")
+//    }
+//    }
+
+//    // if(sections.css("backgroundColor") == 'rgba(0, 0, 0, 0)'){
+
+//    //   $('.nav_toggle').css('color',"red")
+//    // }
+// })
+
+</script>

@@ -1,0 +1,985 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home</title>
+  <!-- Grid Css -->
+
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+  <!-- Main Css -->
+  <link rel="stylesheet" href="./assets/css/common.css">
+  <link rel="stylesheet" href="./assets/css/main.css">
+
+  <style>
+    .banner-slider2-section .swiper {
+      width: 100%;
+      height: 100vh;
+    }
+
+    .banner-slider2-section .swiper-slide {
+      text-align: center;
+      font-size: 18px;
+      background: #000;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: #fff;
+    }
+
+    .banner-slider2-section .swiper-slide img {
+      display: block;
+      width: 100%;
+      height: 70%;
+      object-fit: contain;
+    }
+  </style>
+
+</head>
+
+<body>
+
+  <div class="nav_toggle_wrapper">
+    <a href="index.html"> <img src="assets/img/logo.png" class="mini-logo" alt="logo"></a>
+    <button class="nav_toggle" id="nav">
+      <span class="hover1">E</span>
+      <span class="hover2">X</span>
+      <br />
+      <span class="hover3 text-primary">B</span>
+      <span class="hover4 text-primary">U</span>
+    </button>
+
+    <div class="h-social-icon">
+      <a href="#">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
+          <path
+            d="M279.14 288l14.22-92.66h-88.91v-60.13c0-25.35 12.42-50.06 52.24-50.06h40.42V6.26S260.43 0 225.36 0c-73.22 0-121.08 44.38-121.08 124.72v70.62H22.89V288h81.39v224h100.17V288z" />
+        </svg>
+      </a>
+      <a href="#">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
+          <path
+            d="M204 6.5C101.4 6.5 0 74.9 0 185.6 0 256 39.6 296 63.6 296c9.9 0 15.6-27.6 15.6-35.4 0-9.3-23.7-29.1-23.7-67.8 0-80.4 61.2-137.4 140.4-137.4 68.1 0 118.5 38.7 118.5 109.8 0 53.1-21.3 152.7-90.3 152.7-24.9 0-46.2-18-46.2-43.8 0-37.8 26.4-74.4 26.4-113.4 0-66.2-93.9-54.2-93.9 25.8 0 16.8 2.1 35.4 9.6 50.7-13.8 59.4-42 147.9-42 209.1 0 18.9 2.7 37.5 4.5 56.4 3.4 3.8 1.7 3.4 6.9 1.5 50.4-69 48.6-82.5 71.4-172.8 12.3 23.4 44.1 36 69.3 36 106.2 0 153.9-103.5 153.9-196.8C384 71.3 298.2 6.5 204 6.5z" />
+        </svg>
+      </a>
+      <a href="#">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+          <path
+            d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z" />
+        </svg>
+      </a>
+    </div>
+  </div>
+
+
+  <nav id="mb_nav" class="nav">
+    <div class="container ps-lg-5">
+      <li class="logo">
+        <a class="nav__link" href="index.html">
+          <img src="assets/img/full-logo.webp" class="img-fluid" alt="logo" style="width: 250px">
+        </a>
+      </li>
+      <div class="row">
+        <div class="col-lg-4">
+          <ul>
+            <!-- <li><a class="nav__link" href="">Home</a></li> -->
+            <li><a class="nav__link" href="about.html">About</a></li>
+            <li><a class="nav__link" href="our-work.html">Our Work</a></li>
+            <li><a class="nav__link" href="branding.html">Branding</a></li>
+            <li><a class="nav__link" href="packaging-design.html">Packaging</a></li>
+            <li><a class="nav__link" href="logo-design.html">Logo</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-4">
+          <ul>
+            <li><a class="nav__link" href="web-design.html">Website</a></li>
+            <li><a class="nav__link" href="digital-marketing.html">Digital Marketing</a></li>
+            <li><a class="nav__link" href="#">Case Study</a></li>
+            <li><a class="nav__link" href="contact.html">Contact</a></li>
+            <li><a class="nav__link" href="blog.html">Blog</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-4">
+          <ul>
+            <li>
+              <div class="nav__link nav_link_text">
+                <h3>Want a<br>best selling brand?</h3>
+                <p>pTell us about your project Fancy a coffee and a chat? We would love to meet you.
+                  Drop us a line or slide into our DMs and we will help to create buzz in your social
+                  handles</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="">
+      <img src="assets/img/bg-elm1.png" class="img-fluid bg-elm1" alt="bg-elm1">
+    </div>
+  </nav>
+
+  <main id="main" class="home-page">
+    <!-- <section class="py-0 banner-slider2-section h-vh-100">
+      <div class="swiper" id="banner-slider2">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <img src="assets/img/home-banner-slide-1.png" class="" alt="">
+          </div>
+          <div class="swiper-slide">Slide 2</div>
+          <div class="swiper-slide"> <img src="assets/img/home-banner-slide-1.png" class="" alt=""></div>
+          <div class="swiper-slide">Slide 4</div>
+          <div class="swiper-slide"> <img src="assets/img/home-banner-slide-1.png" class="" alt=""></div>
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
+    </section> -->
+
+
+
+    <!-- <section style="height: 100vh;"></section> -->
+
+    <!-- idea section -->
+    <Section class="idea-section bg-black pt-0">
+      <div class="container-fluid container-fluid-custom position-relative">
+        <div class="banner1">
+          <div class="text-center text-sm-justify">
+            <h3 class="h3 text-light text-center text-sm-justify mb-0">Are you looking to convert</h3>
+            <h2 class="h2 text-light pt-2 mb-0">Ideas Into</h2>
+            <h2 class="h2 text-light">Opportunities?</h2>
+            <h4 class="h4 text-light pt-lg-4">We build an immersive brand!</h4>
+            <p class="text-gray text-center text-sm-justify para pt-4">The best business relationships start with a simple discussion.
+              You might be wondering how we know. With more than 10 years of proven experience, we got opportunities to
+              interact with a wide range of potential clients worldwide.</p>
+            <p class="text-gray text-center text-sm-justify para pt-4">As a creative branding agency, we consider every instant of
+              essential change conceals immense opportunity. That's what makes us come up with a powerful medium that
+              drives the future. From idea to execution, we provide aesthetic branding experience and packaging
+              solutions that enhance your brand and make it scale faster and more robust.</p>
+          </div>
+        </div>
+
+      </div>
+
+    </Section>
+    <!-- img section -->
+    <section class="img-section overflow-x-hidden pt-0 ">
+      <div class="container-fluid px-0 container-fluid-custom2">
+        <div class="row anime-row">
+          <!-- 1s -->
+          <div class="col-md-12 col-lg-4 px-0 animate-col" data-scroll data-scroll-speed="1">
+            <div class="col-lg-12 px-1 pt-0 pb-2">
+              <div class="img-box">
+                <img class="img-fluid w-100" src="assets/img/akai.jpg" alt="anime-img-1.jpg">
+              </div>
+            </div>
+            <div class="col-lg-12 px-1 pt-0 pb-2">
+              <div class="img-box">
+                <img class="img-fluid w-100" src="assets/img/Sterlity-Tissue.jpg" alt="anime-img-2.jpg">
+              </div>
+            </div>
+            <div class="col-lg-12 px-1 pt-0 pb-2">
+              <div class="img-box">
+                <img class="img-fluid w-100" src="assets/img/Saffron.jpg" alt="anime-img-3.jpg">
+              </div>
+            </div>
+            <div class="col-lg-12 px-1 pt-0 pb-2">
+              <div class="img-box">
+                <img class="img-fluid w-100" src="assets/img/Foodies.jpg" alt="anime-img-1.jpg">
+              </div>
+            </div>
+            <div class="col-lg-12 px-1 pt-0 pb-2">
+              <div class="img-box">
+                <img class="img-fluid w-100" src="assets/img/akai.jpg" alt="akai">
+              </div>
+            </div>
+
+          </div>
+          <!-- 2nd -->
+          <div class="col-md-12 col-lg-4 px-0 animate-col overflow-y-hidden" data-scroll data-scroll-speed="2+">
+            <div class="col-lg-12 px-1 pt-0 pb-2">
+              <div class="img-box">
+                <img class="img-fluid w-100" src="assets/img/Deesh.jpg" alt="Deesh">
+              </div>
+            </div>
+            <div class="col-lg-12 px-1 pt-0 pb-2">
+              <div class="img-box">
+                <img class="img-fluid w-100" src="assets/img/SH-Almond.jpg" alt="SH-Almond">
+              </div>
+            </div>
+            <div class="col-lg-12 px-1 pt-0 pb-2">
+              <div class="img-box">
+                <img class="img-fluid w-100" src="assets/img/perkd.jpg" alt="perkd" />
+              </div>
+            </div>
+            <div class="col-lg-12 px-1 pt-0 pb-2">
+              <div class="img-box">
+                <img class="img-fluid w-100" src="assets/img/Anudev.jpg" alt="SH-Almond">
+              </div>
+            </div>
+            <div class="col-lg-12 px-1 pt-0 pb-2">
+              <div class="img-box">
+                <img class="img-fluid w-100" src="assets/img/Rangriki-Water.jpg" alt="Rangriki-Water">
+              </div>
+            </div>
+            <div class="col-lg-12 px-1 pt-0 pb-2">
+              <div class="img-box">
+                <img class="img-fluid w-100" src="assets/img/perkd.jpg" alt="perkd">
+              </div>
+            </div>
+            <div class="col-lg-12 px-1 pt-0 pb-2">
+              <div class="img-box">
+                <img class="img-fluid w-100" src="assets/img/Deesh.jpg" alt="Deesh">
+              </div>
+            </div>
+
+
+          </div>
+          <!-- 3rd -->
+          <div class="col-md-12 col-lg-4 px-0 animate-col" data-scroll data-scroll-speed="1">
+            <div class="col-lg-12 px-1 pt-0 pb-2">
+              <div class="img-box">
+                <img class="img-fluid w-100" src="assets/img/Maa-Chai-Masala.jpg" alt="Maa-Chai-Masala">
+              </div>
+            </div>
+            <div class="col-lg-12 px-1 pt-0 pb-2">
+              <div class="img-box">
+                <img class="img-fluid w-100" src="assets/img/Kindle.jpg" alt="anime-img-2.jpg">
+              </div>
+            </div>
+            <div class="col-lg-12 px-1 pt-0 pb-2">
+              <div class="img-box">
+                <img class="img-fluid w-100" src="assets/img/JUst-CAshews.jpg" alt="JUst-CAshews">
+              </div>
+            </div>
+            <div class="col-lg-12 px-1 pt-0 pb-2">
+              <div class="img-box">
+                <img class="img-fluid w-100" src="assets/img/Fitwist-honey.jpg" alt="Fitwist-honey">
+              </div>
+            </div>
+            <div class="col-lg-12 px-1 pt-0 pb-2">
+              <div class="img-box">
+                <img class="img-fluid w-100" src="assets/img/Fitwist-honey.jpg" alt="Fitwist-honey">
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+      </div>
+    </section>
+    <!-- service section -->
+    <section class="services-section bg-black">
+      <div class="container-fluid container-fluid-custom">
+        <div class="">
+          <h2 class="h2 mb-0 text-light h2-line">Our</h2>
+          <h2 class="h2 mb-0 text-light">Services</h2>
+          <h3 class="text-light mb-0 col-md-9 col-lg-5">everything you need for a brand under one roof</h3>
+
+        </div>
+      </div>
+      <div class="container-fluid container-fluid-custom">
+        <!-- dynamic section -->
+        <div class="row pt-5 align-items-center">
+          <div class="col-lg-6">
+            <!-- <img src="assets/img/image-white-placeholder.jpg" class="img-fluid w-100" alt="image-white-placeholder"> -->
+            <video class="big_scr" width="100%" height="auto" autoplay="autoplay" loop="" playsinline="" muted="">
+              <source src="assets/videos/branding.mp4" type="video/mp4">
+
+            </video>
+          </div>
+          <div class="col-lg-6">
+            <div class="tags-wrapper">
+              <a href="#" class="btn1">UI/UX</a>
+              <a href="#" class="btn1">Brand Identity</a>
+              <a href="#" class="btn1">Brand Naming</a>
+              <a href="#" class="btn1">Brand Guidelines</a>
+            </div>
+            <div>
+              <a href="#" class="h4 text-decoration-none text-light pt-4 d-block">Branding</a>
+              <p class="text-light pt-2">
+                Developing a brand is not everyone's cup of tea. It is the result of experience gained in years and
+                teamwork that derives the result. As a leading branding agency in India, we provide branding packages
+                that fulfil the fundamental elements of creating a brand. Our branding strategies are unique and
+                personalized according to the nature of your business, resulting in better results within a short
+                period.
+              </p>
+              <div class="pt-2">
+                <a href="#" class="btn2">
+                  <img src="assets/img/right-arrow.png" class="" alt="right-arrow" style="width: 35px;">
+
+                </a>
+                <a href="#" class="text-light text-decoration-none ps-4"> Learn more</a>
+              </div>
+            </div>
+
+          </div>
+        </div>
+        <div class="row pt-5 align-items-center">
+          <div class="col-lg-6">
+            <!-- <img src="assets/img/image-white-placeholder.jpg" class="img-fluid w-100" alt="image-white-placeholder"> -->
+            <video class="big_scr" width="100%" height="auto" autoplay="autoplay" loop="" playsinline="" muted="">
+              <source src="assets/videos/packaging-design.mp4" type="video/mp4">
+          </div>
+          <div class="col-lg-6">
+            <div class="tags-wrapper">
+              <a href="#" class="btn1">Label Design</a>
+              <a href="#" class="btn1">Food Packaging</a>
+              <a href="#" class="btn1">Mockup</a>
+            </div>
+            <div>
+              <a href="#" class="h4 text-decoration-none text-light pt-4 d-block">Packaging</a>
+              <p class="text-light pt-2">
+                Being the primary pillar, one of our core expertise lies in packaging design. Only an effective
+                packaging design can increase your product sales; getting the correct pitch required for each product
+                and building an aesthetic design that matches the nature of the product is all you need. And we are
+                there to help you, with highly skilled designers and project managers, we can deliver the final design
+                required for your product.
+              </p>
+              <div class="pt-2">
+                <a href="#" class="btn2">
+                  <img src="assets/img/right-arrow.png" class="" alt="right-arrow" style="width: 35px;">
+
+                </a>
+                <a href="#" class="text-light text-decoration-none ps-4"> Learn more</a>
+              </div>
+            </div>
+
+          </div>
+        </div>
+        <div class="row pt-5 align-items-center">
+          <div class="col-lg-6">
+            <!-- <img src="assets/img/image-white-placeholder.jpg" class="img-fluid w-100" alt="image-white-placeholder"> -->
+            <video class="big_scr" width="100%" height="auto" autoplay="autoplay" loop="" playsinline="" muted="">
+              <source src="assets/videos/digital-marketing.mp4" type="video/mp4">
+          </div>
+          <div class="col-lg-6">
+            <div class="tags-wrapper">
+              <a href="#" class="btn1">Social Media</a>
+              <a href="#" class="btn1">Paid Ads</a>
+              <a href="#" class="btn1">SCO</a>
+            </div>
+            <div>
+              <a href="#" class="h4 text-decoration-none text-light pt-4 d-block">Digital Marketing</a>
+              <p class="text-light pt-2">
+                Our expert team in Digital Marketing develops campaigns that can't be ignored. With immense ideas and
+                solutions, our digital enthusiasts associate with brands worldwide to help increase brand awareness,
+                reach, and sales through optimized digital ad campaigns. We strive to enclose and engage users with the
+                brand by identifying the perfect conversation opportunities and the significance of remarketing
+                campaigns.
+              </p>
+              <div class="pt-2">
+                <a href="#" class="btn2">
+                  <img src="assets/img/right-arrow.png" class="" alt="right-arrow" style="width: 35px;">
+
+                </a>
+                <a href="#" class="text-light text-decoration-none ps-4"> Learn more</a>
+              </div>
+            </div>
+
+          </div>
+        </div>
+        <div class="row pt-5 align-items-center">
+          <div class="col-lg-6">
+            <!-- <img src="assets/img/image-white-placeholder.jpg" class="img-fluid w-100" alt="image-white-placeholder"> -->
+            <video class="big_scr" width="100%" height="auto" autoplay="autoplay" loop="" playsinline="" muted="">
+              <source src="assets/videos/web-development.mp4" type="video/mp4">
+          </div>
+          <div class="col-lg-6">
+            <div class="tags-wrapper">
+              <a href="#" class="btn1">UI/UX</a>
+              <a href="#" class="btn1">Landing Pages</a>
+              <a href="#" class="btn1">Shopify</a>
+              <a href="#" class="btn1">CMS</a>
+            </div>
+            <div>
+              <a href="#" class="h4 text-decoration-none text-light pt-4 d-block">Website Development</a>
+              <p class="text-light pt-2">The Expand Buzz team will assist in developing ingenious and appealing websites
+                that strengthen your brand. Whatever your website needs are, we'll take our customer-driven designs and
+                integrate them with our in-house tool to deliver the solution you need. Our efficient team ensures that
+                our backend works have fast loading times and are search engine optimized. We believe the more engaging
+                a website is, the better you'll get the result.</p>
+              <div class="pt-2">
+                <a href="#" class="btn2">
+                  <img src="assets/img/right-arrow.png" class="" alt="right-arrow" style="width: 35px;">
+
+                </a>
+                <a href="#" class="text-light text-decoration-none ps-4"> Learn more</a>
+              </div>
+            </div>
+
+          </div>
+        </div>
+        <div class="row pt-5 align-items-center">
+          <div class="col-lg-6">
+            <!-- <img src="assets/img/image-white-placeholder.jpg" class="img-fluid w-100" alt="image-white-placeholder"> -->
+            <video class="big_scr" width="100%" height="auto" autoplay="autoplay" loop="" playsinline="" muted="">
+              <source src="assets/videos/logo-design.mp4" type="video/mp4">
+          </div>
+          <div class="col-lg-6">
+            <div class="tags-wrapper">
+              <a href="#" class="btn1">Custom</a>
+              <a href="#" class="btn1">Iconic</a>
+              <a href="#" class="btn1">Intigrated</a>
+              <a href="#" class="btn1">Textual</a>
+            </div>
+            <div>
+              <a href="#" class="h4 text-decoration-none text-light pt-4 d-block">Logo Design</a>
+              <p class="text-light pt-2">Being the face of your business, the logo design plays a prominent role in the
+                success of your business. It elevates your company to the next level and creates a brand identity in the
+                market. Our creative logo designers have tremendous experience generating logos for numerous brands in
+                all major sectors. So, a dynamic approach to developing an engaging logo design is essential in our
+                current period of fierce competition.</p>
+              <div class="pt-2">
+                <a href="#" class="btn2">
+                  <img src="assets/img/right-arrow.png" class="" alt="right-arrow" style="width: 35px;">
+
+                </a>
+                <a href="#" class="text-light text-decoration-none ps-4"> Learn more</a>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- need section -->
+    <section class="need-section bg-black">
+      <div class="container-fluid container-fluid-custom pt-md-2 pt-lg-5">
+        <div class="">
+          <h2 class="h2 mb-0 text-light h2-line pb-3 pb-md-4 col-lg-8">We’are Everything
+            you need.</h2>
+        </div>
+        <div class="row">
+          <div class="col-md-12 col-lg-4"></div>
+          <div class="col-md-4 col-lg-3">
+            <a href="#" class="text-decoration-none text-light d-block links">#Food</a>
+            <a href="#" class="text-decoration-none text-light d-block links">#Spice</a>
+            <a href="#" class="text-decoration-none text-light d-block links">#Electronics</a>
+            <a href="#" class="text-decoration-none text-light d-block links">#Dairy Products</a>
+          </div>
+          <div class="col-md-4 col-lg-3">
+            <a href="#" class="text-decoration-none text-light d-block links">#FMCG</a>
+            <a href="#" class="text-decoration-none text-light d-block links">#Cosmetics</a>
+            <a href="#" class="text-decoration-none text-light d-block links">#Beverages</a>
+            <a href="#" class="text-decoration-none text-light d-block links">#Pharmaceutical</a>
+          </div>
+          <div class="col-md-4 col-lg-2">
+            <a href="#" class="text-decoration-none text-light d-block links">#Tea & Coffee</a>
+            <a href="#" class="text-decoration-none text-light d-block links">#Dry Fruits</a>
+            <a href="#" class="text-decoration-none text-light d-block links">#Frozen Food</a>
+          </div>
+
+        </div>
+        <a href="" class="text-light cat-btn">
+          Request a proposal for your product
+        </a>
+      </div>
+    </section>
+    <!-- agency -->
+    <section class="agency-section bg-black" id="agency-section">
+      <div class="container-fluid container-fluid-custom">
+        <div class="text-center text-sm-justify">
+          <h4 class="h4 text-center text-sm-justify text-light col-lg-8 m-auto">
+            INDIA’S LEADING BRANDING
+            & PACKAGING DESIGN AGENCY
+          </h4>
+          <p class="text-light text-center text-sm-justify col-lg-9 m-auto mt-2">
+            With an experience of more than 10 prosperous years in the industry, we are privileged to be one of the
+            prominent branding agencies in India. We also marked our identity in packaging and digital segments,
+            becoming a leading packaging design agency and India's top <a href="#" class="text-light">digital marketing
+              agency</a>.
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- features -->
+    <section class="features-section bg-black">
+      <div class="container-fluid container-fluid-custom">
+        <div class="">
+          <div class="d-flex justify-content-between">
+            <h4 class="h4 text-light mb-2">
+              Featured works
+            </h4>
+            <div class="pt-2">
+              <a href="#" class="btn2">
+                <img src="assets/img/right-arrow.png" class="" alt="right-arrow" style="width: 35px;">
+
+              </a>
+              <a href="#" class="text-light text-decoration-none ps-4"> View Projects</a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-6 pb-3 pb-md-3 pb-lg-auto">
+              <div class="feature-img-box position-relative">
+               <a href="evercrop.html">
+                <img class="img-fluid w-100" src="assets/img/project-evercrop.jpg"
+                alt="project-evercrop.jpg">
+
+              <div class="feature-img-content">
+                <h5>EverCrop</h5>
+                <p class="mb-0 col-lg-8">Product Shape Design For Unique
+                  Brand Appearance</p>
+              </div>
+               </a>
+              </div>
+            </div>
+            <div class="col-lg-6 pb-3 pb-md-3 pb-lg-auto">
+              <div class="feature-img-box position-relative">
+                <img class="img-fluid w-100" src="assets/img/image-gray-placeholder.jpg"
+                  alt="image-gray-placeholder.jpg">
+
+                <div class="feature-img-content">
+                  <h5>Project Name</h5>
+                  <p class="mb-0 col-lg-8">Product Shape Design For Unique
+                    Brand Appearance</p>
+                </div>
+              </div>
+            </div>
+
+
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- our clients -->
+    <section class="client-section bg-white">
+      <div class="container-fluid container-fluid-custom">
+        <div class="row align-items-center">
+          <div class="col-lg-6">
+            <h2 class="h2 mb-0 text-light h2-line pb-0 text-black">Our Clients</h2>
+            <h3 class="text-light mb-0 text-black">our precious treasure box</h3>
+          </div>
+          <div class="col-lg-6">
+            <p class="text-gray">
+              Welcome to our precious box - every customer is precious to us - it's only their trust and cooperation
+              make us who we are now. You can see a massive list, from top-listed ones to new birds. We created every
+              brand uniquely and gave them a unique identity in the market.
+            </p>
+          </div>
+        </div>
+
+        <div class="row pt-lg-5 mt-lg-2">
+          <div class="col-6 col-md-4 col-lg-2 pb-4 text-center text-sm-justify">
+            <img src="assets/img/academy.png" class="img-fluid" alt="academy">
+          </div>
+          <div class="col-6 col-md-4 col-lg-2 pb-4 text-center text-sm-justify">
+            <img src="assets/img/bha.png" class="img-fluid" alt="bha">
+          </div>
+          <div class="col-6 col-md-4 col-lg-2 pb-4 text-center text-sm-justify">
+            <img src="assets/img/complex.png" class="img-fluid" alt="complex">
+          </div>
+          <div class="col-6 col-md-4 col-lg-2 pb-4 text-center text-sm-justify">
+            <img src="assets/img/Evercrop.png" class="img-fluid" alt="Evercrop">
+          </div>
+          <div class="col-6 col-md-4 col-lg-2 pb-4 text-center text-sm-justify">
+            <img src="assets/img/Freshia.png" class="img-fluid" alt="Freshia">
+          </div>
+          <div class="col-6 col-md-4 col-lg-2 pb-4 text-center text-sm-justify">
+            <img src="assets/img/godgift.png" class="img-fluid" alt="godgift">
+          </div>
+          <div class="col-6 col-md-4 col-lg-2 pb-4 text-center text-sm-justify">
+            <img src="assets/img/gottlich.png" class="img-fluid" alt="gottlich">
+          </div>
+          <div class="col-6 col-md-4 col-lg-2 pb-4 text-center text-sm-justify">
+            <img src="assets/img/hairmedics.png" class="img-fluid" alt="hairmedics">
+          </div>
+          <div class="col-6 col-md-4 col-lg-2 pb-4 text-center text-sm-justify">
+            <img src="assets/img/kings.png" class="img-fluid" alt="kings">
+          </div>
+          <div class="col-6 col-md-4 col-lg-2 pb-4 text-center text-sm-justify">
+            <img src="assets/img/kona.png" class="img-fluid" alt="kona">
+          </div>
+          <div class="col-6 col-md-4 col-lg-2 pb-4 text-center text-sm-justify">
+            <img src="assets/img/mervx.png" class="img-fluid" alt="mervx">
+          </div>
+          <div class="col-6 col-md-4 col-lg-2 pb-4 text-center text-sm-justify">
+            <img src="assets/img/mudran.png" class="img-fluid" alt="mudran">
+          </div>
+          <div class="col-6 col-md-4 col-lg-2 pb-4 text-center text-sm-justify">
+            <img src="assets/img/noor.png" class="img-fluid" alt="noor">
+          </div>
+          <div class="col-6 col-md-4 col-lg-2 pb-4 text-center text-sm-justify">
+            <img src="assets/img/parttyhardd.png" class="img-fluid" alt="parttyhardd">
+          </div>
+          <div class="col-6 col-md-4 col-lg-2 pb-4 text-center text-sm-justify">
+            <img src="assets/img/player.png" class="img-fluid" alt="player">
+          </div>
+          <div class="col-6 col-md-4 col-lg-2 pb-4 text-center text-sm-justify">
+            <img src="assets/img/raw.png" class="img-fluid" alt="raw">
+          </div>
+          <div class="col-6 col-md-4 col-lg-2 pb-4 text-center text-sm-justify">
+            <img src="assets/img/saffron.png" class="img-fluid" alt="saffron">
+          </div>
+          <div class="col-6 col-md-4 col-lg-2 pb-4 text-center text-sm-justify">
+            <img src="assets/img/Freshia.png" class="img-fluid" alt="Freshia">
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- clients testimonial -->
+    <section class="client-say-section bg-black">
+      <div class="container-fluid container-fluid-custom">
+        <div class="row align-items-center">
+          <div class="col-lg-6">
+            <h2 class="h2 mb-0 text-light h2-line pb-0">What our
+              Clients says</h2>
+          </div>
+          <div class="col-lg-6">
+            <p class="text-gray">
+              Welcome to our precious box - every customer is precious to us - it's only their trust and cooperation
+              that make us who we are now. You can see a huge list from top-listed ones to new birds. We created every
+              brand uniquely and gave them a new identity in the market.
+            </p>
+          </div>
+        </div>
+      </div>
+      <!-- Swiper -->
+      <div class="container-fluid container-fluid-custom mt-5">
+
+        <div class="swiper mySwiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="col-lg-7 mx-auto">
+                <div class="quotation2">
+                  <img src="assets/img/quotation.png" class="img-fluid mb-2" alt="quotation" style="width: 100px;">
+                </div>
+                <p class="text-light mb-0">
+                  I got the opportunity to work with the Expand Buzz team to develop our branding and digital
+                  marketing for our Cafe. The Agency helped us to pitch in the market by clearly perceiving what we
+                  needed to achieve. The position we are in today is all because of the team's hard work and
+                  strategies, and we are delighted with their work.
+                </p>
+                <p class="text-light"> <small><b>-URBAN CHAAT</b></small></p>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="col-lg-7 mx-auto">
+                <div class="quotation2">
+                  <img src="assets/img/quotation.png" class="img-fluid mb-2" alt="quotation" style="width: 100px;">
+                </div>
+                <p class="text-light mb-0">
+                  I got the opportunity to work with the Expand Buzz team to develop our branding and digital
+                  marketing for our Cafe. The Agency helped us to pitch in the market by clearly perceiving what we
+                  needed to achieve. The position we are in today is all because of the team's hard work and
+                  strategies, and we are delighted with their work.
+                </p>
+                <p class="text-light"> <small><b>-URBAN CHAAT</b></small></p>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="col-lg-7 mx-auto">
+                <div class="quotation2">
+                  <img src="assets/img/quotation.png" class="img-fluid mb-2" alt="quotation" style="width: 100px;">
+                </div>
+                <p class="text-light mb-0">
+                  I got the opportunity to work with the Expand Buzz team to develop our branding and digital
+                  marketing for our Cafe. The Agency helped us to pitch in the market by clearly perceiving what we
+                  needed to achieve. The position we are in today is all because of the team's hard work and
+                  strategies, and we are delighted with their work.
+                </p>
+                <p class="text-light"> <small><b>-URBAN CHAAT</b></small></p>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="col-lg-7 mx-auto">
+                <div class="quotation2">
+                  <img src="assets/img/quotation.png" class="img-fluid mb-2" alt="quotation" style="width: 100px;">
+                </div>
+                <p class="text-light mb-0">
+                  I got the opportunity to work with the Expand Buzz team to develop our branding and digital
+                  marketing for our Cafe. The Agency helped us to pitch in the market by clearly perceiving what we
+                  needed to achieve. The position we are in today is all because of the team's hard work and
+                  strategies, and we are delighted with their work.
+                </p>
+                <p class="text-light"> <small><b>-URBAN CHAAT</b></small></p>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="col-lg-7 mx-auto">
+                <div class="quotation2">
+                  <img src="assets/img/quotation.png" class="img-fluid mb-2" alt="quotation" style="width: 100px;">
+                </div>
+                <p class="text-light mb-0">
+                  I got the opportunity to work with the Expand Buzz team to develop our branding and digital
+                  marketing for our Cafe. The Agency helped us to pitch in the market by clearly perceiving what we
+                  needed to achieve. The position we are in today is all because of the team's hard work and
+                  strategies, and we are delighted with their work.
+                </p>
+                <p class="text-light"> <small><b>-URBAN CHAAT</b></small></p>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="col-lg-7 mx-auto">
+                <div class="quotation2">
+                  <img src="assets/img/quotation.png" class="img-fluid mb-2" alt="quotation" style="width: 100px;">
+                </div>
+                <p class="text-light mb-0">
+                  I got the opportunity to work with the Expand Buzz team to develop our branding and digital
+                  marketing for our Cafe. The Agency helped us to pitch in the market by clearly perceiving what we
+                  needed to achieve. The position we are in today is all because of the team's hard work and
+                  strategies, and we are delighted with their work.
+                </p>
+                <p class="text-light"> <small><b>-URBAN CHAAT</b></small></p>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="col-lg-7 mx-auto">
+                <div class="quotation2">
+                  <img src="assets/img/quotation.png" class="img-fluid mb-2" alt="quotation" style="width: 100px;">
+                </div>
+                <p class="text-light mb-0">
+                  I got the opportunity to work with the Expand Buzz team to develop our branding and digital
+                  marketing for our Cafe. The Agency helped us to pitch in the market by clearly perceiving what we
+                  needed to achieve. The position we are in today is all because of the team's hard work and
+                  strategies, and we are delighted with their work.
+                </p>
+                <p class="text-light"> <small><b>-URBAN CHAAT</b></small></p>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="col-lg-7 mx-auto">
+                <div class="quotation2">
+                  <img src="assets/img/quotation.png" class="img-fluid mb-2" alt="quotation" style="width: 100px;">
+                </div>
+                <p class="text-light mb-0">
+                  I got the opportunity to work with the Expand Buzz team to develop our branding and digital
+                  marketing for our Cafe. The Agency helped us to pitch in the market by clearly perceiving what we
+                  needed to achieve. The position we are in today is all because of the team's hard work and
+                  strategies, and we are delighted with their work.
+                </p>
+                <p class="text-light"> <small><b>-URBAN CHAAT</b></small></p>
+              </div>
+            </div>
+
+          </div>
+          <!-- <div class="swiper-button-next"></div>
+  <div class="swiper-button-prev"></div> -->
+          <!-- <div class="swiper-pagination"></div> -->
+          <div class="autoplay-progress">
+            <svg viewBox="0 0 48 48">
+              <circle cx="24" cy="24" r="20"></circle>
+            </svg>
+            <span></span>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- form -->
+    <section class="form-section bg-light">
+      <div class="form-overlay">
+
+      </div>
+      <div class="container-fluid container-fluid-custom py-lg-5">
+        <div class="text-center text-sm-justify">
+          <h4 class="h4 text-center text-sm-justify text-black font-weight-bold">
+            LET’S TALK
+          </h4>
+          <p class="form-para">get free quote for your branding requirements from experts:</p>
+          <p class="text-gray col-lg-8 mx-auto mb-lg-4">
+            We would love to hear from you, don't hesitate to say a "Hello" that might change the phase of your
+            business. Communication is the best key to success, so let's begin our journey from here!
+          </p>
+        </div>
+        <form action="">
+          <div class="row">
+            <div class="col-lg-6">
+              <input type="text" class="form-control custom-form-style" placeholder="Name*">
+            </div>
+            <div class="col-lg-6">
+              <input type="text" class="form-control custom-form-style" placeholder="Email*">
+            </div>
+            <div class="col-lg-6">
+              <input type="text" class="form-control custom-form-style" placeholder="City*">
+            </div>
+            <div class="col-lg-6">
+              <input type="text" class="form-control custom-form-style" placeholder="Phone*">
+            </div>
+            <div class="col-lg-6">
+              <input type="text" class="form-control custom-form-style" placeholder="About You*">
+            </div>
+            <div class="col-lg-12 text-center text-sm-justify">
+              <button class="btn3">
+                Submit
+              </button>
+            </div>
+          </div>
+        </form>
+      </div>
+
+    </section>
+    <!-- blog -->
+    <section class="blog-section bg-black">
+      <div class="container-fluid container-fluid-custom">
+        <div class="row align-items-center">
+          <h3 class="h3 text-light  mb-0">Get Inspired from </h3>
+          <h2 class="h2 text-light">Our Blog</h2>
+        </div>
+        <div class="row">
+          <div class="col-lg-4 mb-4 mb-md-4 mb-lg-0 ">
+            <div>
+              <a href="">
+                <img src="assets/img/blog-1.jpg" class="img-fluid w-100" alt="blog-1">
+              </a>
+            </div>
+            <div class="home-blog-wrapper">
+              <div class="blog-title mt-1">
+                <a href="" class="text-light text-decoration-none">
+                  51+ sweet box packaging design trends in 2023
+                </a>
+              </div>
+              <div class="">
+
+                <a href="#" class="btn2 text-decoration-none text-light">
+                  <p class="mb-0 text-light pe-1">Read More</p>
+                  <img src="assets/img/right-arrow.png" class="" alt="right-arrow" style="width: 26px;">
+                </a>
+
+                </a>
+              </div>
+              <!-- <p class="text-light">
+                    May 26, 23 | Packaging
+                  </p> -->
+            </div>
+          </div>
+          <div class="col-lg-4 mb-4 mb-md-4 mb-lg-0 ">
+            <div>
+              <a href="">
+                <img src="assets/img/blog-1.jpg" class="img-fluid w-100" alt="blog-1">
+              </a>
+            </div>
+            <div class="home-blog-wrapper">
+              <div class="blog-title mt-1">
+                <a href="" class="text-light text-decoration-none">
+                  51+ sweet box packaging design trends in 2023
+                </a>
+              </div>
+              <div class="">
+
+                <a href="#" class="btn2 text-decoration-none text-light">
+                  <p class="mb-0 text-light pe-1">Read More</p>
+                  <img src="assets/img/right-arrow.png" class="" alt="right-arrow" style="width: 26px;">
+                </a>
+
+                </a>
+              </div>
+              <!-- <p class="text-light">
+                    May 26, 23 | Packaging
+                  </p> -->
+            </div>
+          </div>
+          <div class="col-lg-4 mb-4 mb-md-4 mb-lg-0 ">
+            <div>
+              <a href="">
+                <img src="assets/img/blog-1.jpg" class="img-fluid w-100" alt="blog-1">
+              </a>
+            </div>
+            <div class="home-blog-wrapper">
+              <div class="blog-title mt-1">
+                <a href="" class="text-light text-decoration-none">
+                  51+ sweet box packaging design trends in 2023
+                </a>
+              </div>
+              <div class="">
+
+                <a href="#" class="btn2 text-decoration-none text-light">
+                  <p class="mb-0 text-light pe-1">Read More</p>
+                  <img src="assets/img/right-arrow.png" class="" alt="right-arrow" style="width: 26px;">
+                </a>
+
+                </a>
+              </div>
+              <!-- <p class="text-light">
+                    May 26, 23 | Packaging
+                  </p> -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="bg-black">
+      <div class="container-fluid container-fluid-custom">
+        <div class="row">
+          <div class="col-md-6 col-lg-4">
+            <a href="#">
+              <img src="assets/img/full-logo.webp" class="img-fluid" alt="full-logo" style="width: 240px;">
+            </a>
+            <h6 class="text-light mt-3">Tell us about your project</h6>
+            <p class="text-light col-lg-10 text-sm-justify">Fancy a coffee and a chat? We would love to meet you.
+              Drop us a line or slide into our DMs and we will help to create buzz in your social handles
+            </p>
+          </div>
+          <div class="col-md-6 col-lg-2 col-auto ps-md-5 ps-lg-0">
+            <ul>
+              <li><a href="abou">About</a></li>
+              <li><a href="#">About Us</a></li>
+              <li><a href="#">Our Work</a></li>
+              <li><a href="#">Branding</a></li>
+              <li><a href="#">Packaging Design</a></li>
+            </ul>
+          </div>
+          <div class="col-md-6 col-lg-3 pt-3 pt-md-4 pt-lg-0 ps-md-auto ps-lg-5">
+            <ul>
+              <li><a href="#">LOGO DESIGN</a></li>
+              <li><a href="#">WEB DEVELOPMENT</a></li>
+              <li><a href="#">DIGITAL MARKETING</a></li>
+              <li><a href="#">CONTACT US</a></li>
+              <li><a href="#">BLOG</a></li>
+            </ul>
+          </div>
+          <div class="col-md-6 col-lg-3 pt-3 pt-md-4 pt-lg-0 col-auto ps-md-5 ps-lg-0">
+            <ul>
+              <li><a href="#">CONTACT DETAILS</a></li>
+            </ul>
+            <p class="text-light mb-0">Mobile : <a href="tel:9871521144" class="text-light text-decoration-none">+91
+                9871521144</a></p>
+            <p class="text-light mb-0">Mobile : <a href="tel:9871561144" class="text-light text-decoration-none">+91
+                9871561144</a></p>
+            <p class="text-light mb-0">Email : <a href="mailto:hi@expandbuzz.com"
+                class="text-light text-decoration-none">hi@expandbuzz.com</a></p>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </main>
+
+  <!-- Slim jQuery -->
+  <script src="./assets/js/slim-jquery.js"></script>
+  <!-- gsap -->
+  <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.1/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.1/ScrollTrigger.min.js"></script>
+  <!-- Main js -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+  <script src="./assets/js/main.js"></script>
+  <script>
+    window.addEventListener("load", function () {
+      let bullet = document.querySelectorAll(".swiper-pagination-bullet");
+      console.log(bullet)
+
+      bullet[0].innerHTML = "<span class='dot'>Digital Marketing</span> ";
+      bullet[1].innerHTML = "<span class='dot'>Branding</span>";
+      bullet[2].innerHTML = "<span class='dot'>Packaging</span>";
+      bullet[3].innerHTML = "<span class='dot'>Logo</span>";
+      bullet[4].innerHTML = "<span class='dot'>Web Development</span>";
+
+      bullet[0].addEventListener('click', function () {
+        gsap.to('.banner-slider2-section .swiper-pagination-bullet', {
+          transform: 'matrix(1, 0, 0, 1, 450, 0)'
+        })
+      })
+
+
+    });
+  </script>
+
+
+</body>
+
+</html>

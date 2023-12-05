@@ -1,0 +1,543 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Web Design</title>
+    <!-- Grid Css -->
+
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css" />
+    <!-- Main Css -->
+    <link rel="stylesheet" href="./assets/css/common.css" />
+    <link rel="stylesheet" href="./assets/css/main.css" />
+    <!-- <link rel="stylesheet" href="./assets/css/process.css" /> -->
+    <style>
+        .cards {
+            position: relative;
+        }
+
+        .custom-card {
+            position: absolute;
+            width: 100%;
+            height: 70vh;
+            margin-bottom: 50px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 50px;
+
+            box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.2);
+        }
+
+        .card-right-col {
+            background: #000;
+        }
+
+        .cards {
+            height: 100vh;
+        }
+
+        @media(max-width: 768px) {
+            .custom-card {
+                height: 100vh;
+                text-align: center;
+            }
+
+            .card-left-col {
+                width: 60%;
+            }
+        }
+
+        @media(max-width: 767px) {
+            .custom-card {
+                height: 75vh;
+                margin-top: 3rem;
+            }
+
+            .card-left-col {
+                width: 100%;
+            }
+
+        }
+    </style>
+</head>
+
+<body class="body-active">
+    <div class="nav_toggle_wrapper">
+        <a href="index.html"> <img src="assets/img/logo.png" class="mini-logo" alt="logo"></a>
+        <button class="nav_toggle" id="nav">
+            <span class="hover1">E</span>
+            <span class="hover2">X</span>
+            <br />
+            <span class="hover3 text-primary">B</span>
+            <span class="hover4 text-primary">U</span>
+        </button>
+
+        <div class="h-social-icon">
+            <a href="#">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
+                    <path
+                        d="M279.14 288l14.22-92.66h-88.91v-60.13c0-25.35 12.42-50.06 52.24-50.06h40.42V6.26S260.43 0 225.36 0c-73.22 0-121.08 44.38-121.08 124.72v70.62H22.89V288h81.39v224h100.17V288z" />
+                </svg>
+            </a>
+            <a href="#">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
+                    <path
+                        d="M204 6.5C101.4 6.5 0 74.9 0 185.6 0 256 39.6 296 63.6 296c9.9 0 15.6-27.6 15.6-35.4 0-9.3-23.7-29.1-23.7-67.8 0-80.4 61.2-137.4 140.4-137.4 68.1 0 118.5 38.7 118.5 109.8 0 53.1-21.3 152.7-90.3 152.7-24.9 0-46.2-18-46.2-43.8 0-37.8 26.4-74.4 26.4-113.4 0-66.2-93.9-54.2-93.9 25.8 0 16.8 2.1 35.4 9.6 50.7-13.8 59.4-42 147.9-42 209.1 0 18.9 2.7 37.5 4.5 56.4 3.4 3.8 1.7 3.4 6.9 1.5 50.4-69 48.6-82.5 71.4-172.8 12.3 23.4 44.1 36 69.3 36 106.2 0 153.9-103.5 153.9-196.8C384 71.3 298.2 6.5 204 6.5z" />
+                </svg>
+            </a>
+            <a href="#">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                    <path
+                        d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z" />
+                </svg>
+            </a>
+        </div>
+    </div>
+
+
+    <nav id="mb_nav" class="nav">
+        <div class="container ps-lg-5">
+            <li class="logo">
+                <a class="nav__link" href="index.html">
+                    <img src="assets/img/full-logo.webp" class="img-fluid" alt="logo" style="width: 250px">
+                </a>
+            </li>
+            <div class="row">
+                <div class="col-lg-4">
+                    <ul>
+                        <!-- <li><a class="nav__link" href="">Home</a></li> -->
+                        <li><a class="nav__link" href="about.html">About</a></li>
+                        <li><a class="nav__link" href="our-work.html">Our Work</a></li>
+                        <li><a class="nav__link" href="branding.html">Branding</a></li>
+                        <li><a class="nav__link" href="packaging-design.html">Packaging</a></li>
+                        <li><a class="nav__link" href="logo-design.html">Logo</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-4">
+                    <ul>
+                        <li><a class="nav__link" href="web-design.html">Website</a></li>
+                        <li><a class="nav__link" href="digital-marketing.html">Digital Marketing</a></li>
+                        <li><a class="nav__link" href="#">Case Study</a></li>
+                        <li><a class="nav__link" href="contact.html">Contact</a></li>
+                        <li><a class="nav__link" href="blog.html">Blog</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-4">
+                    <ul>
+                        <li>
+                            <div class="nav__link nav_link_text">
+                                <h3>Want a<br>best selling brand?</h3>
+                                <p>pTell us about your project Fancy a coffee and a chat? We would love to meet you.
+                                    Drop us a line or slide into our DMs and we will help to create buzz in your social
+                                    handles</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="">
+            <img src="assets/img/bg-elm1.png" class="img-fluid bg-elm1" alt="bg-elm1">
+        </div>
+    </nav>
+
+    <main id="main" class="web-design-page">
+        <!-- idea section -->
+        <section class="idea-section bg-black  pt-md-5 pt-lg-5">
+            <div class="container-fluid container-fluid-custom position-relative pt-lg-5">
+                <div class="text-center web-design-banner">
+                    <h3 class="text-light text-center  mb-0 text-uppercase">
+                        Website Design
+                    </h3>
+                    <h2 class="h2 text-light pt-0 mb-0 text-center">
+                        witness our creativity
+                    </h2>
+                    <h3 class="text-light text-center mb-0 pt-2 text-uppercase">
+                        enhance your business
+                    </h3>
+                    <p class="text-light text-center  col-lg-8 mx-auto py-3">
+                        Does an engaging website design catch customers' attention and
+                        convert into sales? Yeah, you heard it right; creating a powerful
+                        website will entirely change the phase of your business.
+                    </p>
+                    <p class="text-light text-center text-uppercase pb-3">
+                        WEB DESIGN AGENCY | Customise Website Design Agency India
+                    </p>
+                </div>
+            </div>
+            <div class="container">
+                <video autoplay="" muted="" loop="" playsinline="" width="100%">
+                    <source src="assets/videos/home_bg.mp4" type="video/mp4" />
+                    <source src="movie.ogg" type="video/ogg" />
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+        </section>
+        <!-- img section -->
+        <section class="our-work-img-section py-0 bg-black">
+            <div class="container-fluid">
+                <div class="text-center">
+                    <h3 class="text-light text-center">
+                        we develope brands to the best they can be!
+                    </h3>
+                    <p class="text-light col-lg-6 text-center mx-auto">
+                        By distinctly merging strategic diligence with vivid creativity,
+                        We commute fruitful and futuristic growth for our clients.
+                    </p>
+                    <div class="pt-3 pb-5">
+                        <a href="#" class="btn1 mb-3">Featured</a>
+                        <a href="#" class="btn1 mb-3">Packaging</a>
+                        <a href="#" class="btn1 mb-3">Website</a>
+                        <a href="#" class="btn1 mb-3">Branding</a>
+                        <a href="#" class="btn1 mb-3">Digital</a>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12 col-md-6 px-1 pt-0 pb-2">
+                        <div class="img-box">
+                            <img class="img-fluid w-100" src="assets/img/mdh.jpg" alt="mdh.jpg" />
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 px-1 pt-0 pb-2">
+                        <div class="img-box">
+                            <img class="img-fluid w-100" src="assets/img/almonds.jpg" alt="almonds.jpg" />
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 px-1 pt-0 pb-2">
+                        <div class="img-box">
+                            <img class="img-fluid w-100" src="assets/img/halke-fulke.jpg" alt="halke-fulke.jpg" />
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 px-1 pt-0 pb-2">
+                        <div class="img-box">
+                            <img class="img-fluid w-100" src="assets/img/cornitos.jpg" alt="cornitos.jpg" />
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 px-1 pt-0 pb-2">
+                        <div class="img-box">
+                            <img class="img-fluid w-100" src="assets/img/matta-rice.jpg" alt="matta-rice.jpg" />
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 px-1 pt-0 pb-2">
+                        <div class="img-box">
+                            <img class="img-fluid w-100" src="assets/img/zenko.jpg" alt="zenko.jpg" />
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 px-1 pt-0 pb-2">
+                        <div class="img-box">
+                            <img class="img-fluid w-100" src="assets/img/myst.jpg" alt="myst.jpg" />
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 px-1 pt-0 pb-2">
+                        <div class="img-box">
+                            <img class="img-fluid w-100" src="assets/img/juice.jpg" alt="juice.jpg" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- start process -->
+        <section class="process-section">
+            <div class="container-fluid cards">
+                <div class="row custom-card card1">
+                    <div class="col-lg-6 text-center text-sm-justify card-left-col">
+
+                        <lottie-player src="assets/js/DETERMININGGOAL.json" class="svg_player" background="transparent"
+                            speed="1" loop="" autoplay=""></lottie-player>
+                    </div>
+                    <div class="col-lg-6 card-right-col">
+                        <h3> Goal:</h3>
+                        <p class="text-sm-justify">Having a creative brief is the foremost step leading to smoothly casting an engaging
+                            design process. If the designer has better clarity regarding your motives and purpose,
+                            he gets a better picture and helps execute the better layout. </p>
+                    </div>
+                </div>
+                <div class="row custom-card card2">
+                    <div class="col-lg-6 text-center text-sm-justify card-left-col">
+
+                        <lottie-player src="assets/js/DETERMININGGOAL.json" class="svg_player" background="transparent"
+                            speed="1" loop="" autoplay=""></lottie-player>
+                    </div>
+                    <div class="col-lg-6 card-right-col">
+                        <h3>Determining</h3>
+                        <p class="text-sm-justify">Having a creative brief is the foremost step leading to smoothly casting an engaging
+                            design process. If the designer has better clarity regarding your motives and purpose,
+                            he gets a better picture and helps execute the better layout. </p>
+                    </div>
+                </div>
+                <div class="row custom-card card3">
+                    <div class="col-lg-6 text-center text-sm-justify card-left-col">
+
+                        <lottie-player src="assets/js/DETERMININGGOAL.json" class="svg_player" background="transparent"
+                            speed="1" loop="" autoplay=""></lottie-player>
+                    </div>
+                    <div class="col-lg-6 card-right-col">
+                        <h3>Determining Goal:</h3>
+                        <p class="text-sm-justify">Having a creative brief is the foremost step leading to smoothly casting an engaging
+                            design process. If the designer has better clarity regarding your motives and purpose,
+                            he gets a better picture and helps execute the better layout. </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- <div class="row cards-row">
+            <div class="col-12">
+                <div class="cards">
+                    <div class="custom-card card1" style="background-color: darkcyan; z-index: 2;">
+                        <h1>Slide 1</h1>
+                    </div>
+                    <div class="custom-card card2" style="background-color:aliceblue; z-index: 3;">
+                        <h1>Slide 2</h1>
+                    </div>
+                    <div class="custom-card card3" style="background-color:green; z-index: 4;">
+                        <h1>Slide 3</h1>
+                    </div>
+                </div>
+            </div>
+        </div> -->
+        <!-- end process -->
+
+        <section class="bg-black">
+            <div class="container">
+                <div class="text-center text-sm-justify">
+                    <h3 class="h3 text-light text-center mb-0">
+                        Enhance your business potential with our custom
+                    </h3>
+                    <h2 class="h2 text-light pt-2 mb-0 text-center">web design and</h2>
+                    <h2 class="h2 text-light text-center">development services</h2>
+                    <p class="text-gray text-center text-sm-justify col-lg-9 pt-4 mx-auto">
+                        It's high time to switch your brand from the ordinary with a
+                        distinct custom website. Our personalised web fabricates do not
+                        rely on plugin templates or existing code but creates your space
+                        from scratch.
+                    </p>
+                    <p class="text-gray text-center text-sm-justify col-lg-9 pt-4 mx-auto">
+                        Our acclaimed expertise has a proven experience in all strategic
+                        approaches when it comes to the web. We have an excellent
+                        professional team, including Stack Web Developers, SEO
+                        Professionals, and Design & Content creators who are fond of
+                        challenges and create their own paths in what they do.
+                    </p>
+                    <p class="text-gray text-center text-sm-justify col-lg-9 pt-4 mx-auto">
+                        We develop a web where custom sales funnels and look-throughs can
+                        improvise sales dramatically. Our team will always be available
+                        for you, even post-development period, for any support or
+                        services.
+                    </p>
+                </div>
+            </div>
+        </section>
+        <section class="bg-black creative-section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 col-lg-6">
+                        <h3 class="creative-h3 mb-0">creative</h3>
+                        <h2 class="h2 text-light text-uppercase">Website</h2>
+                        <h2 class="h2 text-uppercase">
+                            Design<br />
+                            Agency
+                        </h2>
+                    </div>
+                    <div class="col-md-6 col-lg-6 d-flex align-items-end">
+                        <p class="text-gray text-sm-justify">
+                            Our website design and development expertise results in
+                            cultivating many brands across the major sectors. You will get
+                            all the services for website creation under one roof, making us
+                            one of the best website design agencies in India. We have clear
+                            strategies and processes to give you the best results.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="need-section bg-black">
+            <div class="container-fluid container-fluid-custom pt-md-2 pt-lg-5">
+                <div class="">
+                    <h2 class="h2 mb-0 text-light h2-line pb-3 pb-md-4 col-lg-8">
+                        We’are Everything you need.
+                    </h2>
+                </div>
+                <div class="row">
+                    <div class="col-md-12 col-lg-4"></div>
+                    <div class="col-md-4 col-lg-3">
+                        <a href="#" class="text-decoration-none text-light d-block links">#Food</a>
+                        <a href="#" class="text-decoration-none text-light d-block links">#Spice</a>
+                        <a href="#" class="text-decoration-none text-light d-block links">#Electronics</a>
+                        <a href="#" class="text-decoration-none text-light d-block links">#Dairy Products</a>
+                    </div>
+                    <div class="col-md-4 col-lg-3">
+                        <a href="#" class="text-decoration-none text-light d-block links">#FMCG</a>
+                        <a href="#" class="text-decoration-none text-light d-block links">#Cosmetics</a>
+                        <a href="#" class="text-decoration-none text-light d-block links">#Beverages</a>
+                        <a href="#" class="text-decoration-none text-light d-block links">#Pharmaceutical</a>
+                    </div>
+                    <div class="col-md-4 col-lg-2">
+                        <a href="#" class="text-decoration-none text-light d-block links">#Tea &amp; Coffee</a>
+                        <a href="#" class="text-decoration-none text-light d-block links">#Dry Fruits</a>
+                        <a href="#" class="text-decoration-none text-light d-block links">#Frozen Food</a>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="tags-wrapper pt-5 pb-4">
+                        <a href="#" class="btn1">UI/UX</a>
+                        <a href="#" class="btn1">Brand Identity</a>
+                        <a href="#" class="btn1">Brand Naming</a>
+                        <a href="#" class="btn1">Brand Guidelines</a>
+                    </div>
+                </div>
+                <a href="" class="text-light cat-btn">
+                    Request a proposal for your product
+                </a>
+            </div>
+        </section>
+
+       
+         <!-- Start Form -->
+         <section class="form-section ">
+            <div class="container mt-5">
+              <div class="row">
+                  
+              <div class="col-lg-6 mb-3 ">
+                <div class="form-consult-box px-3 px-md-3 px-lg-3 py-4">
+                  <!-- <div class="avatar-wrapper"></div> -->
+                  <i class="ri-customer-service-2-fill"></i>
+                  <h2 class="text-primary">Free <span class="text-light">30min consultation</span></h2>
+                  <p>Have a new project in mind? Schedule a 30-minute discovery call or fill out the quick form, and together we'll explore the possibilities</p>
+                </div>
+              </div>
+              <div class="col-lg-6">
+                            <form action="" id="">
+                <div class="row">
+                  <div class="col-lg-6">
+                    <input type="text" class="form-control custom-form-style mb-3" placeholder="Name*">
+                  </div>
+                  <div class="col-lg-6">
+                    <input type="text" class="form-control custom-form-style mb-3" placeholder="Email*">
+                  </div>
+                  <div class="col-lg-6">
+                    <input type="text" class="form-control custom-form-style mb-3" placeholder="City*">
+                  </div>
+                  <div class="col-lg-6">
+                    <input type="text" class="form-control custom-form-style mb-3" placeholder="Phone*">
+                  </div>
+                  <div class="col-lg-12">
+                    <textarea class="form-control custom-form-style mb-3" placeholder="About You*"></textarea>
+                    <!-- <input type="text"  placeholder="About You*"> -->
+                  </div>
+                  <div class="col-lg-12 d-grid justify-content-end ">
+                    <button class="btn3">
+                      Submit
+                    </button>
+                  </div>
+                </div>
+              </form>
+              </div>
+              </div>
+            </div>
+    
+      
+          </section>
+          <!-- EndForm -->
+
+     
+          <footer class="bg-black">
+            <div class="container-fluid container-fluid-custom pt-5 pb-0">
+              <div class="row">
+                <div class="col-md-6 col-lg-4">
+                  <a href="#">
+                    <img src="assets/img/full-logo.webp" class="img-fluid" alt="full-logo" style="width: 240px;">
+                  </a>
+                  <h6 class="text-light mt-3">Tell us about your project</h6>
+                  <p class="text-light col-lg-10 text-sm-justify">Fancy a coffee and a chat? We would love to meet you.
+                    Drop us a line or slide into our DMs and we will help to create buzz in your social handles
+                  </p>
+                </div>
+                <div class="col-md-6 col-lg-2 col-auto ps-md-5 ps-lg-0">
+                  <ul>
+                    <li><a href="abou">About</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Our Work</a></li>
+                    <li><a href="#">Branding</a></li>
+                    <li><a href="#">Packaging Design</a></li>
+                  </ul>
+                </div>
+                <div class="col-md-6 col-lg-3 pt-3 pt-md-4 pt-lg-0 ps-md-auto ps-lg-5">
+                  <ul>
+                    <li><a href="#">LOGO DESIGN</a></li>
+                    <li><a href="#">WEB DEVELOPMENT</a></li>
+                    <li><a href="#">DIGITAL MARKETING</a></li>
+                    <li><a href="#">CONTACT US</a></li>
+                    <li><a href="#">BLOG</a></li>
+                  </ul>
+                </div>
+                <div class="col-md-6 col-lg-3 pt-3 pt-md-4 pt-lg-0 col-auto ps-md-5 ps-lg-0">
+                  <ul>
+                    <li><a href="#">CONTACT DETAILS</a></li>
+                  </ul>
+                  <p class="text-light mb-0">Mobile : <a href="tel:9871521144" class="text-light text-decoration-none">+91
+                      9871521144</a></p>
+                  <p class="text-light mb-0">Mobile : <a href="tel:9871561144" class="text-light text-decoration-none">+91
+                      9871561144</a></p>
+                  <p class="text-light mb-0">Email : <a href="mailto:hi@expandbuzz.com"
+                      class="text-light text-decoration-none">hi@expandbuzz.com</a></p>
+                </div>
+              </div>
+              <p class="text-center copyright">© 2023 Expandbuzz All rights reserved.</p>
+            </div>
+            <div class="bg-light" style="margin-top: -2px;">
+              <img src="assets/img/bg-elm1.png" class="img-fluid w-100" alt="bg-elm1" style="
+              margin-top: -2px;
+          ">
+          </div>
+          </footer>
+    </main>
+
+    <!-- Slim jQuery -->
+    <script src="./assets/js/slim-jquery.js"></script>
+    <!-- gsap -->
+    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.1/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.1/ScrollTrigger.min.js"></script>
+    <!-- Main js -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+    <script src="./assets/js/main.js"></script>
+
+    <script>
+        let tl2 = gsap.timeline({
+            scrollTrigger: {
+                trigger: ".cards",
+                scroller: "#main",
+                pin: true,
+                pinSpacing: true,
+                markers: false,
+                start: "top 10%", // when the top of the trigger hits the top of the viewport
+                end: "+=1000", // end after scrolling 1000px beyond the start
+                scrub: 2 // smooth scrubbing, takes 1 second to "catch up" to the scrollbar
+            }
+        });
+
+        tl2.from(".card1", {
+            yPercent: 100,
+            opacity: 0
+        });
+        tl2.from(".card2", {
+            yPercent: 200,
+            opacity: 0
+        });
+        tl2.from(".card3", {
+            yPercent: 200,
+            opacity: 0
+        });
+    </script>
+</body>
+
+</html>

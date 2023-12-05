@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Svg</title>
+    <style>
+    .path {
+        stroke-dasharray: 1000;
+        stroke-dashoffset: 1000;
+        animation: dash 2.5s infinite;
+        width: 400px;
+        stroke-width: 0.25em;
+        position: absolute;
+        left: -78px;
+        top: 59px;
+      }
+      .path path {
+        stroke: red;
+      }
+    
+      @keyframes dash {
+        0% {
+          stroke-dashoffset: 900;
+        }
+        100% {
+          stroke-dashoffset: 0;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <!-- <svg viewBox="0 0 940 999">
+
+        <path class="path" fill="#333" stroke="white" stroke-width="2" d="M66.039,133.545c0,0-21-57,18-67s49-4,65,8
+        s30,41,53,27s66,4,58,32s-5,44,18,57s22,46,0,45s-54-40-68-16s-40,88-83,48s11-61-11-80s-79-7-70-41
+        C46.039,146.545,53.039,128.545,66.039,133.545z" />
+      
+      </svg> -->
+
+    <svg
+      class="path"
+      xmlns="http://www.w3.org/2000/svg"
+      xmlns:xlink="http://www.w3.org/1999/xlink"
+      id="eipMoqytQaz1"
+      viewBox="0 0 300 300"
+      shape-rendering="geometricPrecision"
+      text-rendering="geometricPrecision"
+    >
+      <path
+        d="M57.898296,113.605626c37.327563-9.737625,60.860157-15.417906,86.827157-12.172031s45.442251,3.245873,64.917501,17.852311s15.417906,21.666215,8.926156,30.714092-137.949688,13.673249-159.859345,0s1.622938-35.582906,12.9835-46.943468q11.360562-11.360562-12.172033,10.549094"
+        transform="matrix(1 0 0 0.532188 0.000002 60.612868)"
+        fill="none"
+        stroke="#3f5787"
+        stroke-width="0.6"
+      />
+    </svg>
+  </body>
+</html>

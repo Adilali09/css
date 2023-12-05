@@ -1,0 +1,1171 @@
+
+body {
+    overflow-x: hidden !important;
+    font-size: 16px;
+}
+
+.roadmap {
+    position: relative;
+    height: 280em;
+    padding: 5em 8.02em;
+}
+
+.roadmap__card {
+    position: relative;
+    width: 100%;
+    /* height: 25.25em; */
+    margin-top: 5em;
+    border: 0px solid var(--black);
+    border-radius: 0em;
+    background-color: var(--black);
+}
+
+.roadmap__card.sticky {
+    position: -webkit-sticky;
+    position: sticky;
+    bottom: 60px;
+    z-index: 3;
+    margin-top: 0em;
+    margin-bottom: 0em;
+}
+
+.roadmap__card.sticky.step-1 {
+    bottom: 2.5em;
+    z-index: 34;
+    margin-bottom: 3.33em;
+}
+
+.roadmap__card.sticky.step-2 {
+    bottom: 4.17em;
+    z-index: 32;
+    margin-bottom: 3.33em;
+}
+
+.roadmap__card.sticky.step-3 {
+    bottom: 4.17em;
+    z-index: 30;
+    margin-bottom: 3.33em;
+}
+
+.roadmap__card.sticky.step-4 {
+    bottom: 4.17em;
+    z-index: 28;
+    margin-bottom: 3.33em;
+}
+
+.roadmap__card.sticky.step-5 {
+    bottom: 4.17em;
+    z-index: 26;
+    margin-bottom: 3.33em;
+}
+
+.roadmap__card.sticky.step-6 {
+    bottom: 4.17em;
+    z-index: 24;
+    margin-bottom: 3.33em;
+}
+
+.roadmap__card.sticky.step-7 {
+    bottom: 4.17em;
+    z-index: 22;
+    margin-bottom: 3.33em;
+}
+
+.roadmap__card.sticky.step-8 {
+    bottom: 4.17em;
+    z-index: 20;
+    margin-bottom: 3.33em;
+}
+
+.roadmap__card.sticky.step-9 {
+    bottom: 4.17em;
+    z-index: 18;
+    margin-bottom: 3.33em;
+}
+
+.roadmap__card.sticky.step-10 {
+    bottom: 4.17em;
+    z-index: 16;
+    margin-bottom: 3.33em;
+}
+
+.roadmap__card.sticky.step-11 {
+    bottom: 4.17em;
+    z-index: 14;
+    margin-bottom: 3.33em;
+}
+
+.roadmap__card.sticky.step-12 {
+    bottom: 4.17em;
+    z-index: 12;
+    margin-bottom: 3.33em;
+}
+
+.roadmap__card.sticky.step-13 {
+    bottom: 4.17em;
+    z-index: 10;
+    margin-bottom: 3.33em;
+}
+
+.roadmap__card.sticky.step-14 {
+    bottom: 4.17em;
+    z-index: 8;
+    margin-bottom: 3.33em;
+}
+
+.roadmap__card.sticky.step-15 {
+    bottom: 4.17em;
+    z-index: 6;
+    margin-bottom: 3.33em;
+}
+
+.roadmap__card.sticky.step-16 {
+    bottom: 4.17em;
+    z-index: 4;
+    margin-bottom: 3.33em;
+}
+
+.roadmap__card.sticky.step-17 {
+    bottom: 4.17em;
+    z-index: 2;
+    margin-bottom: 3.33em;
+}
+
+.roadmap__card.sticky.step-18 {
+    top: 4.17px;
+    bottom: 4.17em;
+    z-index: 1;
+    margin-bottom: 3.33em;
+}
+
+.card-content {
+    position: static;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    height: 25.25em;
+    margin-bottom: 0em;
+    padding: 1.2em 2em;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.roadmap__card .card-content h3 {
+    font-size: 35px;
+    line-height: 35px;
+    text-transform: uppercase;
+    color: var(--white);
+}
+
+.roadmap__card .card-content p {
+    /* font-family: 'Libre Baskerville', serif; */
+    color: var(--white);
+}
+
+.roadmap__title {
+    position: relative;
+    top: 0em;
+    height: 24vh;
+    padding-top: 0em;
+    padding-right: 0em;
+    padding-left: 0em;
+}
+
+/*.roadmap__card-line {width: 0.05em;height: 19.17em;background-color: #fff;}*/
+
+
+
+.roadmap1 {
+    position: relative;
+    height: 170em;
+    padding: 5em 8.02em;
+}
+
+.roadmap__card1 {
+    position: relative;
+    width: 100%;
+    height: 25.25em;
+    margin-top: 5em;
+    border: 0px solid #fff;
+    border-radius: 0em;
+    background-color: #fff;
+}
+
+.roadmap__card1.sticky {
+    position: -webkit-sticky;
+    position: sticky;
+    bottom: 60px;
+    z-index: 3;
+    margin-top: 0em;
+    margin-bottom: 0em;
+}
+
+.roadmap__card1.sticky.step-1 {
+    bottom: 2.5em;
+    z-index: 34;
+    margin-bottom: 3.33em;
+}
+
+.roadmap__card1.sticky.step-2 {
+    bottom: 4.17em;
+    z-index: 32;
+    margin-bottom: 3.33em;
+}
+
+.roadmap__card1.sticky.step-3 {
+    bottom: 4.17em;
+    z-index: 30;
+    margin-bottom: 3.33em;
+}
+
+.roadmap__card1.sticky.step-4 {
+    bottom: 4.17em;
+    z-index: 28;
+    margin-bottom: 3.33em;
+}
+
+.roadmap__card1.sticky.step-5 {
+    bottom: 4.17em;
+    z-index: 26;
+    margin-bottom: 3.33em;
+}
+
+.roadmap__card1.sticky.step-6 {
+    bottom: 4.17em;
+    z-index: 24;
+    margin-bottom: 3.33em;
+}
+
+.roadmap__card1.sticky.step-7 {
+    bottom: 4.17em;
+    z-index: 22;
+    margin-bottom: 3.33em;
+}
+
+.roadmap__card1.sticky.step-8 {
+    bottom: 4.17em;
+    z-index: 20;
+    margin-bottom: 3.33em;
+}
+
+.roadmap__card1.sticky.step-9 {
+    bottom: 4.17em;
+    z-index: 18;
+    margin-bottom: 3.33em;
+}
+
+.roadmap__card1.sticky.step-10 {
+    bottom: 4.17em;
+    z-index: 16;
+    margin-bottom: 3.33em;
+}
+
+.roadmap__card1.sticky.step-11 {
+    bottom: 4.17em;
+    z-index: 14;
+    margin-bottom: 3.33em;
+}
+
+.roadmap__card1.sticky.step-12 {
+    bottom: 4.17em;
+    z-index: 12;
+    margin-bottom: 3.33em;
+}
+
+.roadmap__card1.sticky.step-13 {
+    bottom: 4.17em;
+    z-index: 10;
+    margin-bottom: 3.33em;
+}
+
+.roadmap__card1.sticky.step-14 {
+    bottom: 4.17em;
+    z-index: 8;
+    margin-bottom: 3.33em;
+}
+
+.roadmap__card1.sticky.step-15 {
+    bottom: 4.17em;
+    z-index: 6;
+    margin-bottom: 3.33em;
+}
+
+.roadmap__card1.sticky.step-16 {
+    bottom: 4.17em;
+    z-index: 4;
+    margin-bottom: 3.33em;
+}
+
+.roadmap__card1.sticky.step-17 {
+    bottom: 4.17em;
+    z-index: 2;
+    margin-bottom: 3.33em;
+}
+
+.roadmap__card1.sticky.step-18 {
+    top: 4.17px;
+    bottom: 4.17em;
+    z-index: 1;
+    margin-bottom: 3.33em;
+}
+
+.card-content1 {
+    position: static;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    height: 25.25em;
+    margin-bottom: 0em;
+    padding: 1.2em 2em;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.roadmap__card1 .card-content1 h3 {
+    font-size: 35px;
+    line-height: 35px;
+    text-transform: uppercase;
+}
+
+.roadmap__card1 .card-content1 p {
+    font-family: 'Libre Baskerville', serif;
+    color: var(--white);
+}
+
+.roadmap__title {
+    position: relative;
+    top: 0em;
+    height: 24vh;
+    padding-top: 0em;
+    padding-right: 0em;
+    padding-left: 0em;
+}
+
+.roadmap2 {
+    position: relative;
+    height: 170em;
+    padding: 5em 8.02em;
+}
+
+.roadmap__card2 {
+    position: relative;
+    width: 100%;
+    height: 28.25em;
+    margin-top: 5em;
+    border: 0px solid #fff;
+    border-radius: 0em;
+    background-color: #fff;
+}
+
+.roadmap__card2.sticky {
+    position: -webkit-sticky;
+    position: sticky;
+    bottom: 60px;
+    z-index: 3;
+    margin-top: 0em;
+    margin-bottom: 0em;
+}
+
+.roadmap__card2.sticky.step-1 {
+    bottom: 2.5em;
+    z-index: 34;
+    margin-bottom: 3.33em;
+}
+
+.roadmap__card2.sticky.step-2 {
+    bottom: 4.17em;
+    z-index: 32;
+    margin-bottom: 3.33em;
+}
+
+.roadmap__card2.sticky.step-3 {
+    bottom: 4.17em;
+    z-index: 30;
+    margin-bottom: 3.33em;
+}
+
+.roadmap__card2.sticky.step-4 {
+    bottom: 4.17em;
+    z-index: 28;
+    margin-bottom: 3.33em;
+}
+
+.roadmap__card2.sticky.step-5 {
+    bottom: 4.17em;
+    z-index: 26;
+    margin-bottom: 3.33em;
+}
+
+.roadmap__card2.sticky.step-6 {
+    bottom: 4.17em;
+    z-index: 24;
+    margin-bottom: 3.33em;
+}
+
+.roadmap__card2.sticky.step-7 {
+    bottom: 4.17em;
+    z-index: 22;
+    margin-bottom: 3.33em;
+}
+
+.roadmap__card2.sticky.step-8 {
+    bottom: 4.17em;
+    z-index: 20;
+    margin-bottom: 3.33em;
+}
+
+.roadmap__card2.sticky.step-9 {
+    bottom: 4.17em;
+    z-index: 18;
+    margin-bottom: 3.33em;
+}
+
+.roadmap__card2.sticky.step-10 {
+    bottom: 4.17em;
+    z-index: 16;
+    margin-bottom: 3.33em;
+}
+
+.roadmap__card2.sticky.step-11 {
+    bottom: 4.17em;
+    z-index: 14;
+    margin-bottom: 3.33em;
+}
+
+.roadmap__card2.sticky.step-12 {
+    bottom: 4.17em;
+    z-index: 12;
+    margin-bottom: 3.33em;
+}
+
+.roadmap__card2.sticky.step-13 {
+    bottom: 4.17em;
+    z-index: 10;
+    margin-bottom: 3.33em;
+}
+
+.roadmap__card2.sticky.step-14 {
+    bottom: 4.17em;
+    z-index: 8;
+    margin-bottom: 3.33em;
+}
+
+.roadmap__card2.sticky.step-15 {
+    bottom: 4.17em;
+    z-index: 6;
+    margin-bottom: 3.33em;
+}
+
+.roadmap__card2.sticky.step-16 {
+    bottom: 4.17em;
+    z-index: 4;
+    margin-bottom: 3.33em;
+}
+
+.roadmap__card2.sticky.step-17 {
+    bottom: 4.17em;
+    z-index: 2;
+    margin-bottom: 3.33em;
+}
+
+.roadmap__card2.sticky.step-18 {
+    top: 4.17px;
+    bottom: 4.17em;
+    z-index: 1;
+    margin-bottom: 3.33em;
+}
+
+.card-content2 {
+    position: static;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    height: 25.25em;
+    margin-bottom: 0em;
+    padding: 1.2em 2em;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.roadmap__card2 .card-content1 h3 {
+    font-size: 35px;
+    line-height: 35px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.roadmap__card1 .card-content1 p {
+    font-family: 'Libre Baskerville', serif;
+    color: var(--white);
+}
+
+.roadmap__title {
+    position: relative;
+    top: 0em;
+    height: 24vh;
+    padding-top: 0em;
+    padding-right: 0em;
+    padding-left: 0em;
+}
+
+@media(max-width:768px) {
+    .roadmap2 {
+        padding: 0;
+    }
+
+    .logo_img {
+        width: 35%;
+    }
+
+    .bold_text_branding {
+        font-size: 114px;
+    }
+
+    .bold_text_branding1 {
+        font-size: 70px;
+    }
+
+    .bold_text_branding2 {
+        font-size: 95px;
+    }
+
+    .roadmap__card1 .card-content1 h3 {
+        font-size: 30px;
+    }
+
+    .svg_player {
+        width: 100%;
+        height: 100%;
+    }
+
+    .lg h3 {
+        font-size: 95px;
+    }
+
+    .bold_text_branding {
+        font-size: 70px;
+    }
+
+    .inner_page_title h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        font-size: 25px !important;
+        font-weight: 700 !important;
+        text-transform: uppercase;
+    }
+
+    .category-section .client_logo_box {
+        margin-bottom: 4rem !important;
+    }
+.card-content{
+    text-align: center;
+}
+}
+
+
+@media (max-width: 576px) {
+    .gal .main_heading {
+        text-align: left !important;
+    }
+
+    /* My Styling*/
+    .phone {
+        display: none;
+    }
+
+    body {
+        /*font-family: 'Lato', sans-serif;*/
+        overflow-x: hidden !important;
+        font-size: 16px;
+    }
+
+    .logo_img {
+        width: 70%;
+        display: block;
+        /*z-index:99;*/
+    }
+
+    .bold_text {
+        font-size: 35px;
+    }
+
+    .bg_images {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .hero_container {
+        height: 100vh;
+    }
+
+    .clip {
+        width: 100%;
+        height: auto;
+    }
+
+    .hero_container .bg_images:hover .clip {
+        width: 100%;
+    }
+
+    .main_heading1 {
+        font-size: 40px;
+    }
+
+    .about_header {
+        background-image: none;
+    }
+
+    .journy {
+        background-image: none;
+    }
+
+    .black_img {
+        width: 100%;
+    }
+
+    /*.main_heading {*/
+    /*    color:#000 !important;*/
+    /*}*/
+    .content_box p {
+        color: var(--white) !important;
+    }
+
+    .expandbuzz {
+        font-size: 50px;
+    }
+
+    .header_main_heading_cnt {
+        font-size: 32px;
+        text-align: left;
+    }
+
+    .hilight_text {
+        font-size: 30px;
+    }
+
+    .headings {
+        font-size: 35px;
+    }
+
+    .small_heading {
+        font-size: 20px;
+    }
+
+    .header_main_heading {
+        font-size: 40px;
+    }
+
+    .bold_text_branding {
+        font-size: 55px;
+    }
+
+    .main_heading {
+        font-size: 30px;
+    }
+
+    .roadmap {
+        padding: 0;
+    }
+
+    .roadmap1 {
+        padding: 0;
+    }
+
+    .roadmap2 {
+        padding: 0;
+    }
+
+    .roadmap__card .card-content h3 {
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .roadmap__card1 .card-content1 h3 {
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .roadmap__card1 .card-content1 p {
+        text-align: center;
+    }
+
+    .roadmap__card1 .card-content2 h3 {
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .roadmap__card1 .card-content2 p {
+        text-align: center;
+    }
+
+    .roadmap__card .card-content p {
+        text-align: center;
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    p {
+        text-align: left;
+    }
+
+    .col-md-6 {
+        padding: auto;
+    }
+
+    .roadmap {
+        height: 350em;
+    }
+
+    .card-content1 {
+        height: 35em;
+    }
+
+    .card-content2 {
+        height: 35em;
+    }
+
+    .card-content {
+        height: 35em;
+    }
+
+    .roadmap__card {
+        height: 32em;
+    }
+
+    .roadmap__card.sticky.step-1 {
+        margin-bottom: 8.33em;
+        bottom: 9.17em;
+    }
+
+    .roadmap__card.sticky.step-2 {
+        margin-bottom: 6.33em;
+        bottom: 9.17em;
+    }
+
+    .roadmap__card.sticky.step-3 {
+        margin-bottom: 6.33em;
+        bottom: 9.17em;
+    }
+
+    .roadmap__card.sticky.step-4 {
+        margin-bottom: 6.33em;
+        bottom: 9.17em;
+    }
+
+    .roadmap__card.sticky.step-5 {
+        margin-bottom: 6.33em;
+        bottom: 9.17em;
+    }
+
+    .roadmap__card.sticky.step-6 {
+        margin-bottom: 6.33em;
+        bottom: 9.17em;
+    }
+
+    .roadmap__card.sticky.step-7 {
+        margin-bottom: 6.33em;
+        bottom: 9.17em;
+    }
+
+    .roadmap__card.sticky.step-8 {
+        margin-bottom: 6.33em;
+        bottom: 9.17em;
+    }
+
+    .roadmap__card.sticky.step-9 {
+        margin-bottom: 6.33em;
+        bottom: 9.17em;
+    }
+
+    .roadmap__card.sticky.step-10 {
+        margin-bottom: 6.33em;
+        bottom: 9.17em;
+    }
+
+    .roadmap__card.sticky.step-11 {
+        margin-bottom: 6.33em;
+        bottom: 9.17em;
+    }
+
+    .roadmap__card.sticky.step-12 {
+        margin-bottom: 6.33em;
+        bottom: 9.17em;
+    }
+
+    .roadmap__card.sticky.step-13 {
+        margin-bottom: 6.33em;
+        bottom: 9.17em;
+    }
+
+    .roadmap__card.sticky.step-14 {
+        margin-bottom: 6.33em;
+        bottom: 9.17em;
+    }
+
+    .roadmap__card.sticky.step-15 {
+        margin-bottom: 6.33em;
+        bottom: 9.17em;
+    }
+
+    .roadmap__card.sticky.step-16 {
+        margin-bottom: 6.33em;
+        bottom: 9.17em;
+    }
+
+    .roadmap__card.sticky.step-17 {
+        margin-bottom: 6.33em;
+        bottom: 9.17em;
+    }
+
+    .roadmap__card.sticky.step-18 {
+        margin-bottom: 6.33em;
+        bottom: 9.17em;
+    }
+
+    .roadmap1 {
+        height: 250em;
+    }
+
+    .card-content1 {
+        height: 40em;
+    }
+
+    .roadmap__card1 {
+        height: 35em;
+    }
+
+    .roadmap__card1.sticky.step-1 {
+        margin-bottom: 8.33em;
+        bottom: 9.17em;
+    }
+
+    .roadmap__card1.sticky.step-2 {
+        margin-bottom: 6.33em;
+        bottom: 9.17em;
+    }
+
+    .roadmap__card1.sticky.step-3 {
+        margin-bottom: 6.33em;
+        bottom: 9.17em;
+    }
+
+    .roadmap__card1.sticky.step-4 {
+        margin-bottom: 6.33em;
+        bottom: 9.17em;
+    }
+
+    .roadmap__card1.sticky.step-5 {
+        margin-bottom: 6.33em;
+        bottom: 9.17em;
+    }
+
+    .roadmap__card1.sticky.step-6 {
+        margin-bottom: 6.33em;
+        bottom: 9.17em;
+    }
+
+    .roadmap__card1.sticky.step-7 {
+        margin-bottom: 6.33em;
+        bottom: 9.17em;
+    }
+
+    .roadmap__card1.sticky.step-8 {
+        margin-bottom: 6.33em;
+        bottom: 9.17em;
+    }
+
+    .roadmap__card1.sticky.step-9 {
+        margin-bottom: 6.33em;
+        bottom: 9.17em;
+    }
+
+    .roadmap__card1.sticky.step-10 {
+        margin-bottom: 6.33em;
+        bottom: 9.17em;
+    }
+
+    .roadmap__card1.sticky.step-11 {
+        margin-bottom: 6.33em;
+        bottom: 9.17em;
+    }
+
+    .roadmap__card1.sticky.step-12 {
+        margin-bottom: 6.33em;
+        bottom: 9.17em;
+    }
+
+    .roadmap__card1.sticky.step-13 {
+        margin-bottom: 6.33em;
+        bottom: 9.17em;
+    }
+
+    .roadmap__card1.sticky.step-14 {
+        margin-bottom: 6.33em;
+        bottom: 9.17em;
+    }
+
+    .roadmap__card1.sticky.step-15 {
+        margin-bottom: 6.33em;
+        bottom: 9.17em;
+    }
+
+    .roadmap__car1d.sticky.step-16 {
+        margin-bottom: 6.33em;
+        bottom: 9.17em;
+    }
+
+    .roadmap__card1.sticky.step-17 {
+        margin-bottom: 6.33em;
+        bottom: 9.17em;
+    }
+
+    .roadmap__card1.sticky.step-18 {
+        margin-bottom: 6.33em;
+        bottom: 9.17em;
+    }
+
+
+    .roadmap2 {
+        height: 220em;
+    }
+
+    .roadmap__title h3 {
+        text-align: center;
+        padding-top: 10px;
+    }
+
+    .roadmap__title p {
+        text-align: justify;
+    }
+
+    .sub_heading {
+        text-align: left;
+    }
+
+    .top_heading {
+        text-align: left;
+    }
+
+    .card-content2 {
+        height: 34em;
+    }
+
+    .roadmap__card2 {
+        height: 40em;
+        padding: 30px 0;
+    }
+
+    .roadmap__card2.sticky.step-1 {
+        margin-bottom: 1.33em;
+        bottom: 2.17em;
+    }
+
+    .roadmap__card2.sticky.step-2 {
+        margin-bottom: 0.33em;
+        bottom: 2.17em;
+    }
+
+    .roadmap__card2.sticky.step-3 {
+        margin-bottom: 1.33em;
+        bottom: 2.17em;
+    }
+
+    .roadmap__card2.sticky.step-4 {
+        margin-bottom: 1.33em;
+        bottom: 2.17em;
+    }
+
+    .roadmap__card2.sticky.step-5 {
+        margin-bottom: 1.33em;
+        bottom: 2.17em;
+    }
+
+    .roadmap__card2.sticky.step-6 {
+        margin-bottom: 1.33em;
+        bottom: 2.17em;
+    }
+
+    .roadmap__card2.sticky.step-7 {
+        margin-bottom: 1.33em;
+        bottom: 2.17em;
+    }
+
+    .roadmap__card2.sticky.step-8 {
+        margin-bottom: 1.33em;
+        bottom: 2.17em;
+    }
+
+    .roadmap__card2.sticky.step-9 {
+        margin-bottom: 1.33em;
+        bottom: 2.17em;
+    }
+
+    .roadmap__card2.sticky.step-10 {
+        margin-bottom: 1.33em;
+        bottom: 2.17em;
+    }
+
+    .roadmap__card2.sticky.step-11 {
+        margin-bottom: 1.33em;
+        bottom: 2.17em;
+    }
+
+    .roadmap__card2.sticky.step-12 {
+        margin-bottom: 1.33em;
+        bottom: 2.17em;
+    }
+
+    .roadmap__card2.sticky.step-13 {
+        margin-bottom: 1.33em;
+        bottom: 2.17em;
+    }
+
+    .roadmap__card2.sticky.step-14 {
+        margin-bottom: 1.33em;
+        bottom: 2.17em;
+    }
+
+    .roadmap__card2.sticky.step-15 {
+        margin-bottom: 1.33em;
+        bottom: 2.17em;
+    }
+
+    .roadmap__card2.sticky.step-16 {
+        margin-bottom: 1.33em;
+        bottom: 2.17em;
+    }
+
+    .roadmap__card2.sticky.step-17 {
+        margin-bottom: 1.33em;
+        bottom: 2.17em;
+    }
+
+    .roadmap__card2.sticky.step-18 {
+        margin-bottom: 1.33em;
+        bottom: 2.17em;
+    }
+
+    .bold_text_branding1 {
+        font-size: 38px;
+        text-align: left;
+    }
+
+    .bold_text_branding2 {
+        font-size: 50px;
+        text-align: left;
+    }
+
+    .client_logo_box {
+        max-width: 45% !important;
+        min-width: 45%;
+    }
+
+
+
+    /*service cirecle button style*/
+    .swiper-btns {
+        display: flex;
+        position: absolute;
+        top: 54%;
+        left: 20%;
+    }
+
+
+    .h_w_logo {
+        width: 70%;
+    }
+
+    .Footer_heading {
+        padding-top: 10px;
+    }
+
+    .menu-footer-menu-container .basic_link {
+        margin-left: 0 !important;
+        padding-left: 0 !important;
+    }
+
+    .basic_link li {
+        list-style: none !important;
+    }
+
+    .lg h3 {
+        font-size: 50px;
+    }
+
+    .bold_text_branding {
+        text-align: left;
+    }
+
+    .about_header p {
+        padding-right: 0px;
+    }
+
+    .font_heading {
+        font-size: 30px !important;
+        font-weight: 400;
+    }
+
+    .header_main_heading {
+        font-size: 35px;
+    }
+
+    /*digital marketing */
+    .d_bold {
+        font-size: 55px;
+    }
+
+    .svg_player {
+        width: 100% !important;
+        height: auto !important;
+    }
+
+    .cust_card {
+        width: 100% !important;
+    }
+
+
+
+    #qpq92f6ogtg81665507327781 .widget-visible {
+        display: none !important;
+    }
+
+    #l5sm14l953q81665509441744 {
+        display: none !important;
+    }
+
+    button.tawk-custom-color.tawk-custom-border-color.tawk-button {
+        display: none !important;
+    }
+
+    .inner_page_title h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        font-size: 20px !important;
+        font-weight: 700 !important;
+        text-transform: uppercase;
+    }
+
+    .bold_text {
+        text-align: left !important;
+    }
+}
+
